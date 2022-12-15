@@ -1,0 +1,15 @@
+$ python -m pytest -v test_morse_decode.py
+
+========================================================================================================= test session starts ==========================================================================================================
+platform linux -- Python 3.8.10, pytest-7.2.0, pluggy-1.0.0 -- /home/kseniya/PycharmProjects/pythonProject/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/kseniya/PycharmProjects/pythonProject/venv
+plugins: cov-4.0.0
+collected 3 items                                                                                                                                                                                                                      
+
+test_morse_decode.py::test_decode[.... . .-.. .-.. ---   .-- --- .-. .-.. -..-HELLOWORLD] PASSED                                                                                                                                 [ 33%]
+test_morse_decode.py::test_decode[... .--. . -.-. .. .- .-.. -....- ... -.-- -- -... --- .-.. ... -....- ..--.. -....- -.--.- -.--.--SPECIAL-SYMBOLS-?-))] PASSED                                                                [ 66%]
+test_morse_decode.py::test_decode[-. ..- -- -... . .-. ... .---- ..--- ...-- ....- ..... -.... --... ---.. ----.-NUMBERS123456789] PASSED                                                                                        [100%]
+
+========================================================================================================== 3 passed in 0.02s ===========================================================================================================
+

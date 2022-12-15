@@ -1,0 +1,7 @@
+$ python -m unittest test_one_hot_encoder_unit.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+
