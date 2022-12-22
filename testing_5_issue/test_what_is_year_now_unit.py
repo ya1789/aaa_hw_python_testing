@@ -7,8 +7,6 @@ from datetime import datetime
 from unittest.mock import patch, MagicMock
 from what_is_year_now import what_is_year_now, API_URL
 
-HTTP_OK = 200
-
 
 class MyTestCase(unittest.TestCase):
 
@@ -38,9 +36,6 @@ class MyTestCase(unittest.TestCase):
         with patch('urllib.request.urlopen') as mock_urlopen:
             self.prepare_mock_urlopen(mock_urlopen, current_date_time_with_dashes)
             self.assertEqual(what_is_year_now(), test_year)
-
-            current_year = str(datetime.now().year)
-            self.assertNotEqual(what_is_year_now(), current_year)
 
     def test_what_year_is_now_dmy_type(self):
         test_year = 2015
