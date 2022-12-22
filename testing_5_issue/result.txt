@@ -1,0 +1,9 @@
+$ python -m pytest -q test_what_is_year_now_unit.py --cov=what_is_year_now
+...                                                                                                                                                                                                                              [100%]
+
+---------- coverage: platform linux, python 3.10.6-final-0 -----------
+Name                  Stmts   Miss  Cover
+-----------------------------------------
+what_is_year_now.py      19      0   100%
+-----------------------------------------
+TOTAL                    19      0   100%
