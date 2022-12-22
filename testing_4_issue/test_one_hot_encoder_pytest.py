@@ -29,24 +29,5 @@ def test_fit_transform_incorrect_type():
         fit_transform(0)
 
 
-
-#
-# def test_fit_transform_brief(self):
-#     actual = fit_transform('a', 'c', 'a', 'a', 'a', 'a')
-#     self.assertIn(('c', [1, 0]), actual)
-#
-#
-# def test_fit_transform_incorrect_type(self):
-#     with self.assertRaises(TypeError) as e:
-#         fit_transform(0)
-#
-#
-# def test_fit_transform_no_argument(self):
-#     with self.assertRaises(TypeError) as e:
-#         fit_transform()
-#     self.assertEqual('expected at least 1 arguments, got 0', e.exception.args[0])
-#
-
-
 if __name__ == '__main__':
     pytest.main()
